@@ -1,10 +1,8 @@
 server:
-
   port: 9090
   context-path: /
   tomcat:
     uri-encoding: UTF-8
-    
   main:
     banner-mode: "off"
 
@@ -12,12 +10,8 @@ server:
 attendance:
   cron: 0 0 2 * * ?
   shift:
-    # 默认班次
     defaultId: 1
-    # 上班时间前3小时以后算作有效考勤
     allowAdvanceHours: -5
-    # 下班时间多6小时内算作有效考勤
     allowDelayHours: 5
-    # 上班时间往后推3个小时当作上下班分界时间点
     delayHoursOnStartWork: 3
 
