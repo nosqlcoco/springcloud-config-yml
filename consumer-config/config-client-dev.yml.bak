@@ -21,3 +21,7 @@ attendance:
     # 上班时间往后推3个小时当作上下班分界时间点
     delayHoursOnStartWork: 3
 
+office:
+  topOffice: 2000
+  defaultOffice: 2000003
+
